@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Sunhare Digital Marketing</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F9FAFC;
+            color: #333333; /* Body text color */
+        }
+        header {
+            background-color: #1A73E8; /* Primary Blue */
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        header nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .hero {
+            background-color: #ffffff;
+            padding: 80px 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .hero h1 {
+            font-size: 48px;
+            color: #1A73E8; /* Primary Blue */
+            margin-bottom: 20px;
+        }
+        .hero p {
+            font-size: 18px;
+            color: #666666; /* Lighter gray text */
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 50px 0;
+            padding: 0 20px;
+        }
+        .service-card {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        .service-card h3 {
+            color: #1A73E8; /* Primary Blue */
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .service-card p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #666666; /* Lighter gray text */
+            margin-bottom: 20px;
+        }
+        .service-card a {
+            color: #FF5722; /* Accent Orange */
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .service-card i {
+            font-size: 40px;
+            color: #1A73E8; /* Primary Blue */
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1A73E8; /* Primary Blue */
+            color: white;
+            margin-top: 40px;
+        }
+        footer .social-icons a {
+            color: white;
+            font-size: 24px;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        footer .social-icons a:hover {
+            color: #FF5722; /* Accent Orange on hover */
+        }
+        footer .contact-info {
+            margin-top: 20px;
+            font-size: 16px;
+        }
+        footer .contact-info button {
+            background-color: #FF5722; /* Accent Orange */
+            color: white;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: 500;
+            cursor: pointer;
+            border: none;
+            text-decoration: none;
+        }
+        footer .contact-info button:hover {
+            background-color: #E64A19; /* Darker shade of Accent Orange */
+        }
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sunhare Digital Marketing</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/services">Services</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Our Services</h1>
+            <p>Explore our range of digital marketing services designed to boost your online presence and drive results.</p>
+        </section>
+
+        <section class="services">
+            <div class="service-card">
+                <i class="fas fa-search"></i>
+                <h3>Advanced SEO</h3>
+                <p>Boost your search engine rankings with targeted SEO strategies. Our advanced SEO services focus on technical SEO, keyword research, content optimization, and backlink building to ensure your site ranks higher, drives more traffic, and generates quality leads.</p>
+                <a href="/services#advanced-seo">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fab fa-facebook-f"></i>
+                <h3>Social Media Management</h3>
+                <p>Strengthen your brand’s presence on popular social platforms. We manage and optimize your social media channels, creating engaging content, running paid ads, and building an active online community that supports your business growth.</p>
+                <a href="/services#social-media-management">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Marketing</h3>
+                <p>Engage your audience with personalized email campaigns that convert. Our email marketing services include crafting compelling newsletters, product launches, and promotional offers that drive user engagement and sales.</p>
+                <a href="/services#email-marketing">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-ad"></i>
+                <h3>PPC Advertising</h3>
+                <p>Maximize your ROI with expertly managed pay-per-click ad campaigns. We manage PPC campaigns on Google Ads, Bing, and social media platforms, optimizing your budget to generate qualified leads and drive traffic effectively.</p>
+                <a href="/services#ppc-advertising">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-laptop-code"></i>
+                <h3>Website Development</h3>
+                <p>Design and develop responsive, user-friendly websites to enhance your online presence. Our team creates custom websites that are optimized for both performance and user experience, ensuring a seamless journey for visitors.</p>
+                <a href="/services#website-development">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-pencil-alt"></i>
+                <h3>Content Marketing</h3>
+                <p>Create high-quality content that drives traffic and converts visitors into customers. We focus on blog writing, content strategy, and distribution to help you rank higher and engage your audience effectively.</p>
+                <a href="/services#content-marketing">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Conversion Rate Optimization</h3>
+                <p>Optimize your website to convert visitors into leads and sales. Our conversion optimization strategies include A/B testing, landing page design improvements, and user experience analysis to increase your website’s efficiency.</p>
+                <a href="/services#conversion-rate-optimization">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Reputation Management</h3>
+                <p>Protect and manage your brand’s online reputation with proactive strategies. We monitor your brand’s mentions, handle customer feedback, and promote positive content to build trust and credibility.</p>
+                <a href="/services#reputation-management">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-video"></i>
+                <h3>Video Marketing</h3>
+                <p>Engage your audience with compelling video content that promotes your brand. From explainer videos to product demos, we create professional videos that captivate and convert viewers.</p>
+                <a href="/services#video-marketing">Learn More</a>
+            </div>
+
+            <div class="service-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Graphic Design</h3>
+                <p>Create eye-catching designs for your brand's marketing materials and digital platforms. Our design services include logos, brochures, social media graphics, and more, all tailored to resonate with your audience.</p>
+                <a href="/services#graphic-design">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="contact-info">
+            <p>Contact us for a personalized consultation.</p>
+            <button onclick="location.href='/contact'">Get in Touch</button>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sunhare-digital-marketing
+spec:
+  replicas: 3  # Number of replicas for self-healing
+  selector:
+    matchLabels:
+      app: sunhare-digital-marketing
+  template:
+    metadata:
+      labels:
+        app: sunhare-digital-marketing
+    spec:
+      containers:
+        - name: sunhare-digital-marketing
+          image: vinaysunhare/sunhare-digital-marketing-web:02
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "512Mi"
+              cpu: "1000m"
+      restartPolicy: Always  # Ensures that pods are restarted if they fail
