@@ -1,6 +1,6 @@
 <h1 class="code-line" data-line-start="0" data-line-end="1"><a id="Digital_Marketing_Web_0"></a>Digital Marketing Web</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3">
-    A Node.js and Express-based web application for showcasing Sunhare digital marketing services. This multi-page site includes a Home, Services, and Contact page, built with EJS templating, request logging, and Docker support for easy deployment.
+    A Node.js and Express-based web application for showcasing Sunhare digital marketing services. This multi-page site includes a Home, Services, and Contact page, built with EJS templating, request logging,Docker and Kubernetes support for easy deployment.
 </p>
 
 <h2 class="code-line" data-line-start="4" data-line-end="5"><a id="Table_of_Contents_4"></a>Table of Contents</h2>
