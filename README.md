@@ -1,3 +1,6 @@
+![digital marketing home page](https://github.com/user-attachments/assets/3521e7b8-5063-4c88-a45d-86cd44506a20)
+![service page](https://github.com/user-attachments/assets/166b41bf-e7b9-498c-8e10-57559a2417d1)
+![contact form](https://github.com/user-attachments/assets/1ec1688f-81ae-4cfd-b339-419f9af92d7a)
 <h1 class="code-line" data-line-start="0" data-line-end="1"><a id="Digital_Marketing_Web_0"></a>Digital Marketing Web</h1>
 <p class="has-line-data" data-line-start="2" data-line-end="3">
     A Node.js and Express-based web application for showcasing Sunhare digital marketing services. This multi-page site includes a Home, Services, and Contact page, built with EJS templating, request logging,Docker and Kubernetes support for easy deployment.
